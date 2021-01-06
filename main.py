@@ -28,7 +28,7 @@ class Game():
             #Refrescar / renderizar la pantalla 
             self.__screen.blit(self.background, (0, 0))
             self.__screen.blit(self.runner, (x, 240))
-            pygame.display.flip()
+            pygame.display.flip() #Actualiza la pantalla
             
             x += 3
             if x >=250:
